@@ -1,0 +1,38 @@
+
+/*ESTILOS DEL BODY*/
+body {
+    background-color: #000;
+    color: #777;
+    font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+
+}
+a:hover {
+    color: #FF0000;
+}
+
+.button-login {
+    display: block;
+    text-align: center;
+    background: #FF0000;
+    border-radius: 7px;
+    color: #fff;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+.button-login:hover {
+    background-color: #444;
+    color: #fff;
+}
+
+
+
+
+

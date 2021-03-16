@@ -1,0 +1,181 @@
+/*ESTILOS DEL HEADER*/
+header {
+    height: 100px;   
+}
+header h1 {
+    float: left;
+    margin-top: 15px;
+}
+
+header nav {
+    float: right;
+}
+header nav ul li {
+    float: left;
+    display: inline-block;
+    margin-top: 30px;
+}
+header nav ul li a {
+    color: #FF0000;
+    display: block;
+    margin-left: 40px;
+}
+
+/*ESTILOS DEL BODY*/
+body {
+    background-color: #000;
+    color: #777;
+    font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+p {
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: #FF0000;
+}
+
+@font-face {
+  font-family: "Netflixfont";
+  src: url("Bebas-Regular.ttf");
+}
+
+h1 {
+    font-family: 'Netflixfont';
+    font-weight: bold;
+    color: #FF0000;
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+
+
+h2 {
+    font-weight: 300;
+    color: #FF0000;
+    font-size: 62px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+
+}
+a:hover {
+    color: #FF0000;
+}
+strong {
+    font-weight: bold;
+}
+small {
+    font-size: 13px;
+    color: #777;
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+   
+    img {
+        width: 200px;
+        height: 300px;
+        margin: 20px;
+        transition: all 1s;
+    }
+
+    img:hover {
+        transform: scale(1.1);
+    }
+
+.center {
+  display: block;
+  margin-left: 100;
+  margin-right: 100;
+  width: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 940px;
+
+}
+
+
+
+
+#catalogo-image {
+    height: 580px;
+    padding-top: 1px;
+    background: #e8eced url(https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2018/06/series-netflix.jpg?itok=e_UM8TMx) no-repeat center;
+    background-size: 1540px 585px;
+}
+#catalogo-image h2 {
+    margin: 180px 0 40px 0;
+}
+
+
+.button-empezar {
+    display: block;
+    text-align: center;
+    background: #FF0000;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+.button-empezar:hover {
+    background-color: #444;
+    color: #fff;
+}
+
+
+.button-login {
+    display: block;
+    text-align: center;
+    background: #FF0000;
+    border-radius: 7px;
+    color: #fff;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+.button-login:hover {
+    background-color: #444;
+    color: #fff;
+}
+
+
+/*ESTILOS DEL FOOTER*/
+footer {
+    padding: 3px;
+    background-color: #000000;
+}
+#footer-copyright {
+    width: 380px;
+    float: left;
+    margin-top: 10px;
+    text-align: left;
+}
+#footer-faqs {
+    width: 280px;
+    float: right;
+    margin-top: 15px;
+    list-style-type: square;
+}
+
+
